@@ -1,7 +1,7 @@
 let startTime, updatedTime, difference, tInterval;
     let running = false;
 
-    const timeDisplay = document.getElementById('time');
+    const timeDisplay = document.getElementById('count');
     const lapsContainer = document.getElementById('laps');
 
     function startTimer() {
@@ -48,7 +48,7 @@ let startTime, updatedTime, difference, tInterval;
         }
     }
 
-    document.getElementById('start').onclick = startTimer;
-    document.getElementById('pause').onclick = pauseTimer;
-    document.getElementById('reset').onclick = resetTimer;
-    document.getElementById('lap').onclick = addLap;
+    document.getElementById('one').onclick = startTimer;
+    document.getElementById('two').onclick = pauseTimer;
+    document.getElementById('three').onclick = resetTimer;
+    document.getElementById('four').onclick = addLap;
